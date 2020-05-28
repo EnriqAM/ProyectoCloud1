@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="ProyectoDBConnectionString-Web.config Connection String" description="ProyectoDBConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=flash66.database.windows.net;Initial Catalog=ProyectoDB;User ID=flash;Password=Cubillos1234" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="D:\\Visual2019\\repos\\ProyectoCloud\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProyectoDBConnectionString']/@connectionString" />
-  </parameter>
-  <parameter name="Proyecto2ConnectionString-Web.config Connection String" description="Proyecto2ConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=batman66.database.windows.net;Initial Catalog=Proyecto2;User ID=batman;Password=Cubillos1234" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="D:\\Visual2019\\repos\\ProyectoCloud\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Proyecto2ConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="D:\\Visual2019\\ProyectoCloud\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProyectoDBConnectionString']/@connectionString" />
   </parameter>
 </parameters>
